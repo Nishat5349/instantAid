@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Instant Aid</string>
+    <string name="main_activity_description">Chat with Mentors.</string>
+
+    <string name="login">Connection</string>
+    <string name="chat_with_mentor">Chat with Mentors</string>
+
+    <!-- NOTIFICATION SERVICE -->
+    <string name="default_notification_channel_id" translatable="false">default_channel</string>
+    <string name="notification_title">"You received a notification"</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="error_not_connected">You need to login!</string>
+    <string name="error_authentication_canceled">Authentification failed&#8230;</string>
+    <string name="error_no_internet">No internet !</string>
+    <string name="error_unknown_error">Unknown error s\'&#8230;</string>
+    <string name="connection_succeed">Authentification success !</string>
+    <string name="button_login_text_logged">show profile</string>
+    <string name="button_login_text_not_logged">Connection</string>
+
+    <!-- LOGIN ACTIVITY -->
+    <string name="toolbar_title_login_activity">Your profile</string>
+    <string name="text_input_username">Named\'</string>
+    <string name="text_view_email">email :</string>
+    <string name="button_update_account"> update account</string>
+    <string name="button_delete_account">delete account</string>
+    <string name="button_sign_out_account">sign out</string>
+    <string name="info_no_email_found">email not found</string>
+    <string name="info_no_username_found">username not found</string>
+    <string name="popup_message_confirmation_delete_account">pop delete account</string>
+    <string name="popup_message_choice_yes">Yes!</string>
+    <string name="popup_message_choice_no">No</string>
+    <string name="check_box_is_mentor">Are you mentor ?</string>
+
+    <!-- MENTOR_CHAT ACTIVITY -->
+    <string name="toolbar_title_mentor_chat_activity">Chats de discussions</string>
+    <string name="text_input_title_mentor_chat_activity">mentor chat</string>
+    <string name="button_title_mentor_chat_activity">send</string>
+    <string name="text_view_mentor_chat_error">Error&#8230;</string>
+    <string name="popup_title_permission_files_access">permission.</string>
+    <string name="toast_title_no_image_chosen">no image&#8230;</string>
+    <!-- Book api -->
+    <string name="thumbnail">thumbnail</string>
+    <string name="title">Title</string>
+    <string name="category">Category</string>
+    <string name="price">40 $</string>
+    <string name="author">Author</string>
+
+
+    <string name="search">SEARCH</string>
+    <string name="hint">Enter your query </string>
+    <string name="description_image_view">Template for  the image</string>
+    <string name="description_divider">Divider</string>
+    <string name="Failed_to_Load_data">Please check your Internet Connection</string>
+    <string name="NO_RESULT">No matching results</string>
+
+    <string-array name="fiche_type">
+        <item>Consultation</item>
+        <item>Hospitalisation</item>
+    </string-array>
+
+    <string-array name="specialite_spinner">
+        <item>Dentist</item>
+        <item>Medicine general</item>
+        <item>ORAL</item>
+        <item>Orthopedics</item>
+        <item>Psychiatrist</item>
+        <item>Gynecologist</item>
+        <item>Neurologist</item>
+    </string-array>
+
+    <string-array name="blood_spinner">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="send">send</string>
+    <!--<string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+        -->
+</resources>
+
